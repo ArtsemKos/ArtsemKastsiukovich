@@ -10,34 +10,101 @@
             margin: 0;
             box-sizing: border-box;
         }
+        .head
+        {
+            width: 21%;
+            height: 40px;
+            background-color: green;
+            margin: 20px;
+
+        }
+        .menu {
+            margin: 20px;
+            background-color: yellow;
+            height: 40px;
+
+        }
+        .footer {
+            background-color: aquamarine;
+            height: 80px;
+
+        }
+        .main {
+            margin: 10px;
+            width: 25%;
+            background-color: aquamarine;
+            height: 56px;
+
+        }
+        .headmain {
+            background-color: aqua;
+
+        }
+        .centrmain {
+            background-color: blueviolet;
+            height: 330px;
+
+        }
+        .menumain {
+            float: left;
+            width: 23%;
+            background-color: green;
+            height: 330px;
+
+        }
+        .banermain
+        {
+            float: right;
+            width: 20%;
+            background-color: green;
+            height: 330px;
+            
+        }
+        .baner {
+            margin: 15px;
+            height: 156px;
+            background-color: aqua;
+
+        }
+        .floatl {
+            float: left;
+
+        }
+        .floatr {
+            float: right;
+
+        }
+        .rasporka {
+            clear: both;
+        }
     </style>
 </head>
 <body>
-    <div style="background-color: aqua;">
-        <div style="float: left;width: 21%;height: 40px;margin: 20px 15px 20px 20px;background-color: green;"></div>
-        <div style="float: left;width: 21%;height: 40px;margin: 20px 10px 20px 15px;background-color: green;"></div>
-        <div style="float: right;width: 21%;height: 40px;margin: 20px 15px 20px 10px;background-color: green;"></div>
-        <div style="float: right;width: 21%;height: 40px;margin: 20px 10px 20px 25px;background-color: green;"></div>
-        <div style="clear: both;"></div>
+    <div class="headmain">
+        <div class="head floatl"></div>
+        <div class="head floatl"></div>
+        <div class="head floatr"></div>
+        <div class="head floatr"></div>
+        <div class="rasporka"></div>
         <!--начало середины-->
     </div>
-    <div style="background-color: blueviolet; height: 330px;">
-        <div style="float: left; width: 23%;background-color: green; height: 330px;">
-          <div style="margin: 20px;background-color: yellow;height: 40px;"></div>
-          <div style="margin: 20px;background-color: yellow;height: 40px;"></div>
-          <div style="margin: 20px;background-color: yellow;height: 40px;"></div>
-          <div style="margin: 20px;background-color: yellow;height: 40px;"></div>
-          <div style="margin: 20px;background-color: yellow;height: 40px;"></div>
+    <div class="centrmain">
+        <div class="menumain">
+          <div class="menu"></div>
+          <div class="menu"></div>
+          <div class="menu"></div>
+          <div class="menu"></div>
+          <div class="menu"></div>
         </div>
-        <div style="float: right; width: 20%;background-color: green;height: 330px;">
-        <div style="margin: 15px;height: 156px;background-color: aqua;"></div>
+        <div class="banermain">
+        <div class="baner"></div>
         </div>
         <div>
-            <div style="margin: 10px; float: left;width: 25%; background-color: aquamarine;height: 56px;"></div>
-            <div style="margin: 10px; float: right;width: 25%;background-color: aquamarine;height: 56px;"></div>
+            <div class="main floatl"></div>
+            <div class="main floatr"></div>
         </div>
     </div>
-    <div style="background-color: aquamarine;height: 80px;"></div>
+    <div class="footer"></div>
     
 </body>
 </html>
