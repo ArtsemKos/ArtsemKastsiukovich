@@ -79,10 +79,9 @@ margin-right: 32px;
 /* centr */
 .center{
 width: 1380px;
-height: 581px;
+height:333px;
 border-radius: 0px 0px 24px 24px;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%);
-margin: 180px auto 3146px auto;
+margin: 180px auto 0px auto;
 }
 
 .center h2{
@@ -107,7 +106,6 @@ text-transform: uppercase;
 .center h3{
     color: var(--Neutrals, #FFF);
 text-align: center;
-/* Montserrat/Semibold/20px */
 font-family: Montserrat;
 font-size: 20px;
 font-style: normal;
