@@ -112,3 +112,122 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+/* 2блок */
+.container_2{
+    width: 1232px;
+    margin: 0 auto;
+}
+.poisk{
+width: 1232px;
+padding: 16px 32px 32px 32px;
+border-radius: 16px;
+background: var(--Neutrals, #FFF);
+box-shadow: 0px 4px 16px 0px rgba(141, 211, 187, 0.15);
+}
+.poisk__top{
+    margin-bottom: 48px;
+}
+.poisk__top_1{
+    float: left;
+    margin-right: 64px;
+   
+}
+.poisk__top_1 img{
+    float: left;
+    margin-right: 8px;
+}
+.poisk__top_1 span{
+color: var(--Blackish-Green, #121);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+vertical-align: middle;
+}
+.poisk__top_2{
+    float: left;
+}
+.poisk__top_2 img{
+    float: left;
+    margin-right: 8px;
+}
+.poisk__top_2 span{
+color: var(--Blackish-Green, #121);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.poisk__top_rasporka{
+    clear: both;
+}
+.poisk__midle{
+    margin-bottom: 32px;
+
+}
+.poisk__midle_1{
+    float: left;
+    width: 324px;
+    padding: 4px 0px 4px 16px;
+    border-radius: 4px 4px 0px 0px;
+    border: 2px solid  #79747E;
+    margin-right: 10px;
+}
+.poisk__midle_1 img{
+    float: right;
+    padding: 12px;
+}
+.poisk__midle_1 span{
+    float: left;
+    padding-top: 14px;
+  
+    
+}
+.poisk__midle_2{
+    float: left;
+    width: 140px;
+    padding: 4px 0px 4px 16px;
+    border-radius: 4px 4px 0px 0px;
+    border: 2px solid  #79747E;
+    margin-right: 10px;
+
+}
+.poisk__midle_2 img{
+    float: right;
+    padding: 12px;
+
+}
+.poisk__midle_2 span{
+    float: left;
+    padding-top: 14px;
+   
+}
+
+
+.poisk__midle_3{
+    float: left;
+    width: 324px;
+   
+    padding: 4px 0px 4px 16px;
+    border-radius: 4px 4px 0px 0px;
+    border: 2px solid  #79747E;
+    margin-right: 10px;
+}
+.poisk__midle_3 p{
+    padding: 14.8px 0;
+}
+.poisk__midle_4{
+    float: left;
+    width: 324px;
+    padding: 4px 0px 4px 16px;
+    border-radius: 4px 4px 0px 0px;
+    border: 2px solid  #79747E;
+}
+.poisk__midle_4 p{
+    padding: 14.8px 0;
+}
+.poisk__midle_rasporka{
+    clear: both;
+}
