@@ -124,7 +124,7 @@ border-radius: 16px;
 background: var(--Neutrals, #FFF);
 box-shadow: 0px 4px 16px 0px rgba(141, 211, 187, 0.15);
 margin-top: -100px;
-margin-bottom: 50px;
+margin-bottom: 80px;
 }
 .poisk__top{
     margin-bottom: 48px;
@@ -632,4 +632,118 @@ line-height: normal;
                     }
                     .plan__3line_rasporka{
                         clear: both ;
+                    }
+                    /* 4block---------------------------------------------------------------------------------------------- */
+                    .choice{
+                        margin-top: 80px;
+                        }
+                    .choice__flights{
+                        float: left;
+                        background-image: url(img/Rectangle\ 40flightsbig.png);
+                        background-repeat: no-repeat;
+                        border-radius: 20px;
+                        width: 604px;
+                        height: 559px;
+                        flex-shrink: 0;
+                    }
+                    .choice__flights h3{
+                        color: var(--Neutrals, #FFF);
+                        text-align: center;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin: 372px auto 8px;
+                    }
+                    .choice__flights h4{
+                        color: var(--Neutrals, #FFF);
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 16px;
+                    }    
+                    .choice__flights_button{
+                        text-align: center;
+                        border-radius: 4px;
+                        background: var(--Mint-Green, #8DD3BB);
+                        height: 48px;
+                        width: 144px;
+                        padding: 8px 16px;
+                        margin: 0 auto;
+                    }
+                    .choice__flights_button img{
+                        width: 16px;
+                        height: 16px;
+                        float: left;
+                        margin: 8px 4px 8px 8px;
+                    }
+                    .choice__flights_button span{
+                        color: var(--Blackish-Green, #121);
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        vertical-align: sub;
+                    }
+                    .choice__hotels{
+                        float: right;
+                        background-image:url(img/Rectangle\ 41hotelsbig.png);
+                        background-repeat: no-repeat;
+                        border-radius: 20px;
+                        width: 604px;
+                        height: 559px;
+                        flex-shrink: 0;
+                    }
+                    /* ghfdj */
+                    .choice__hotels h3{
+                        color: var(--Neutrals, #FFF);
+                        text-align: center;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin: 372px auto 8px;
+                    }
+                    .choice__hotels h4{
+                        color: var(--Neutrals, #FFF);
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 16px;
+                    }    
+                    .choice__hotels_button{
+                        text-align: center;
+                        border-radius: 4px;
+                        background: var(--Mint-Green, #8DD3BB);
+                        height: 48px;
+                        width: 144px;
+                        padding: 8px 16px;
+                        margin: 0 auto;
+                    }
+                    .choice__hotels_button img{
+                        width: 16px;
+                        height: 16px;
+                        float: left;
+                        margin: 8px 4px 8px 8px;
+                    }
+                    .choice__hotels_button span{
+                        color: var(--Blackish-Green, #121);
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        vertical-align: sub;
+                    }
+                    .choice__rasporka{
+                        clear: both;
                     }
