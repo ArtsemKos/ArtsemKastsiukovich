@@ -116,8 +116,6 @@ line-height: normal;
 .container_2{
     width: 1232px;
     margin: 0 auto;
-    overflow: hidden;
-   
 }
 .poisk{
 width: 1232px;
@@ -1043,6 +1041,77 @@ line-height: normal;
                 .scroll__bottom_rasporka{
                     clear: both;
                 }
-
-               
+    /* 6block--------------------------------------------------------------------------------------------------------------------- */
+    .subscribe{
+        width: 1232px;
+        padding: 24px 24px;
+        border-radius: 20px;
+        background: #CDEAE1;
+        box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+       margin:90px 104px 0px 0px;
+       height: 305px;
+    }
+    .subscribe img{
+        float: right;
+        margin-top: 23px;
+    }
+  
+    .subscribe h3{
+        color: var(--Blackish-Green, #121);
+        font-family: TradeGothic LT Extended;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 22px;
+    }
+    .subscribe h4{      
+        color: var(--Blackish-Green, #121);
+        font-family: TradeGothic LT Extended;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .subscribe h5{
+        color: var(--Blackish-Green, #121);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+    .subscribe__mail_1{
+        float: left;
+        border-radius: 4px 4px 0px 0px;
+        height: 56px;
+        width: 473px; ;
+        margin-right: 16px;
+        background-color: #FFF;
+    }
+    .subscribe__mail_1 span{
+        color: #1C1B1F;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .subscribe__mail_2{
+        float: left;
+        border-radius: 4px;
+        background: var(--Blackish-Green, #121);
+        height: 56px;
+        width: 104px;
+    }
+    .subscribe__mail_2 span{
+        color: var(--Neutrals, #FFF);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    .subscribe__mail_rasporks{
+        clear: both;
+    }       
 
