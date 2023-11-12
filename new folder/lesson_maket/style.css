@@ -1089,12 +1089,13 @@ line-height: normal;
         margin-right: 16px;
         background-color: #FFF;
     }
-    .subscribe__mail_1 span{
+    .subscribe__mail_1 p{
         color: #1C1B1F;
         font-family: Montserrat;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
+        margin: 20px 0px 0px 16px;
     }
     .subscribe__mail_2{
         float: left;
@@ -1103,14 +1104,14 @@ line-height: normal;
         height: 56px;
         width: 104px;
     }
-    .subscribe__mail_2 span{
+    .subscribe__mail_2 h6{
         color: var(--Neutrals, #FFF);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
         font-weight: 600;
+        margin: 20px 0px 0px 16px;
     }
-    
     .subscribe__mail_rasporks{
         clear: both;
     }       
