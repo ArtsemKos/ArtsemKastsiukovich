@@ -116,6 +116,7 @@ line-height: normal;
 .container_2{
     width: 1232px;
     margin: 0 auto;
+    /* overflow: hidden; */
 }
 .poisk{
 width: 1232px;
@@ -1050,6 +1051,8 @@ line-height: normal;
         box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
        margin:90px 104px 0px 0px;
        height: 305px;
+       z-index: 1;
+       position: relative;
     }
     .subscribe img{
         float: right;
@@ -1114,5 +1117,46 @@ line-height: normal;
     }
     .subscribe__mail_rasporks{
         clear: both;
-    }       
+    }   
+        /* 7block-footer----------------------------------------------------------------------------------------------------------- */
+        .footer{
+            height: 422px;
+            padding: 0px 104px 64px 104px;
+            background-color: #8DD3BB;
+        }
+        .footer__ul{
+          padding-top: 218px;
+          margin-top: -152px;
+          z-index: -1;
+        }
+        .footer__ul_logo{
+            float: left;
+            margin-right: 140px;
+        }
+        .footer__ul_logo img{
+            margin-right: 12px;
+        }
+        .footer__ul_1{
+            float: left;
+            margin-right: 24px;
+            width: 150px;
+        }
+        .footer__ul_1 li{
+            list-style-type: none;
+            color: var(--Blackish-Green, #121);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            opacity: 0.7;
+            margin-bottom: 12px;
+        }
+        .footer__ul_1 h4{
+            margin-bottom: 16px;
+            color: var(--Blackish-Green, #121);
+            font-family: TradeGothic LT Extended;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+        }
 
