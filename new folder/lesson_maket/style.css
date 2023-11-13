@@ -12,8 +12,8 @@ a{
     margin: 0 auto;
 }
 .header{
-    background-image: url(img/fon.jpg);
-    background-repeat: no-repeat;
+    background-image: url(img/Rectangle\ 32Fon_ten.png),url(img/fon.jpg);
+    background-repeat: no-repeat, no-repeat;
 }
 .header__menu{
     padding: 24px 32px;
