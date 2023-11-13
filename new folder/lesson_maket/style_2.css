@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 .conteiner{
-    width: 1380px;
+    width: 1232px;
     margin: 0 auto;
 }
 .header__menu{
@@ -305,4 +305,217 @@ margin-right: 32px;
             background-repeat: no-repeat;
             height: 590px;
             background-size: cover;
+            margin-bottom: 80px;
         }
+        /* sity-------------------------------------------------------------------------------------------------------------------- */
+        .city_rasporka{
+            clear: both;
+        }
+        .sity1{
+            background-image: url(img/Rectangle\ 3melbourne2p.png);
+            background-repeat: no-repeat;
+            width: 296px;
+            height: 420px;
+            float: left;
+            margin-right: 12px;
+        }
+        .sity1 span{
+            float: right;
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 303px;
+            margin-right: 24px;
+
+        }
+        .sity1 h3{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 286px;
+            margin-left: 24px;
+        }
+        .sity1 h4{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: 24px;
+        }
+        .sity1 p{
+            height: 48px;
+            width: 248px;
+            border-radius: 4px;
+            background: var(--Mint-Green, #8DD3BB);
+            color: var(--Blackish-Green, #121);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-align: center;
+            margin: 16px auto 0px;
+            vertical-align: middle;
+            padding-top: 16px;
+        }
+        /* 2222222 */
+        .sity2{
+            background-image: url(img/Rectangle\ 4paris2p.png);
+            background-repeat: no-repeat;
+            width: 296px;
+            height: 420px;
+            float: left;
+            margin-right: 12px;
+        }
+        .sity2 span{
+            float: right;
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 303px;
+            margin-right: 24px;
+
+        }
+        .sity2 h3{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 286px;
+            margin-left: 24px;
+        }
+        .sity2 h4{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: 24px;
+        }
+        .sity2 p{
+            height: 48px;
+            width: 248px;
+            border-radius: 4px;
+            background: var(--Mint-Green, #8DD3BB);
+            color: var(--Blackish-Green, #121);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-align: center;
+            margin: 16px auto 0px;
+            vertical-align: middle;
+            padding-top: 16px;
+        }
+        /* 33333333 */
+        .sity3{
+            background-image: url(img/Rectangle\ 5london2p.png);
+            background-repeat: no-repeat;
+            width: 296px;
+            height: 420px;
+            float: left;
+            margin-right: 12px;
+        }
+        .sity3 span{
+            float: right;
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 303px;
+            margin-right: 24px;
+
+        }
+        .sity3 h3{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 286px;
+            margin-left: 24px;
+        }
+        .sity3 h4{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: 24px;
+        }
+        .sity3 p{
+            height: 48px;
+            width: 248px;
+            border-radius: 4px;
+            background: var(--Mint-Green, #8DD3BB);
+            color: var(--Blackish-Green, #121);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-align: center;
+            margin: 16px auto 0px;
+            vertical-align: middle;
+            padding-top: 16px;
+        }
+        /* 444444444 */
+        .sity4{
+            background-image: url(img/Rectangle\ 6columbia2p.png);
+            background-repeat: no-repeat;
+            width: 296px;
+            height: 420px;
+            float: left;
+            margin-right: 12px;
+        }
+        .sity4 span{
+            float: right;
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 303px;
+            margin-right: 24px;
+
+        }
+        .sity4 h3{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 286px;
+            margin-left: 24px;
+        }
+        .sity4 h4{
+            color: var(--Neutrals, #FFF);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: 24px;
+        }
+        .sity4 p{
+            height: 48px;
+            width: 248px;
+            border-radius: 4px;
+            background: var(--Mint-Green, #8DD3BB);
+            color: var(--Blackish-Green, #121);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-align: center;
+            margin: 16px auto 0px;
+            vertical-align: middle;
+            padding-top: 16px;
+        }
+        
