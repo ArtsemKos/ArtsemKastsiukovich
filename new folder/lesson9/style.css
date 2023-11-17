@@ -1,0 +1,32 @@
+
+
+body > div  ul li:first-child a{
+    color: red;
+}
+body > div  ul li:nth-child(2) a{
+    color: green;
+}
+body > div  ul li:nth-child(3) a{
+    color: blue;
+}
+body > div  p em:nth-child(1) a{
+    color: yellow;
+}
+body > div  span em:nth-child(1) a{
+    color: black;
+}
+body > ul > li:first-child > a:first-child{
+    color: orange;
+}
+body > ul li:nth-child(1) span a{
+    color: rosybrown;
+}
+body > ul li:nth-child(1) em a{
+    color: violet;
+}
+body > ul > li:nth-child(2) > p em a{
+    color: aqua;
+}
+body > ul li:nth-child(2) div li:nth-child(1) a{
+    color: indigo;
+}
