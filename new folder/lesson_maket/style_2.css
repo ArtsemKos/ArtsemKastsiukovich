@@ -308,6 +308,9 @@ margin-right: 32px;
             margin-bottom: 80px;
         }
         /* sity-------------------------------------------------------------------------------------------------------------------- */
+        .sity{
+            margin-bottom: 80px;
+        }
         .city_rasporka{
             clear: both;
         }
@@ -518,4 +521,65 @@ margin-right: 32px;
             vertical-align: middle;
             padding-top: 16px;
         }
-        
+        .sity-rasporka{
+            clear: both;
+        }
+/* items------------------------------------------ */
+.items{ height: 424px;}
+.item_l{
+            float: left;
+            width: 550px;
+            border-radius: 20px;
+            background: #8DD3BB;
+            padding: 24px;
+        }
+.item_l_t{
+    margin-bottom: 24px;
+}
+   .item_l_t_r{
+    float: right;
+    width: 68px;
+    height: 62px;
+    background-color: white;
+    text-align: center;
+   }     
+ .item_l_t h3{
+    color: #121;
+font-family: TradeGothic LT Extended;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }      
+ .item_l_t h4{
+    color: #121;
+font-family: TradeGothic LT Extended;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }  
+ .item_l_t_r span{
+    color: #121;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+ }
+ .item_l_t_r span:first-child{
+    color:#121;
+font-family: TradeGothic LT Extended;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+ .item_l_t > p{
+    color:#121;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
