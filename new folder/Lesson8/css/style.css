@@ -1,0 +1,32 @@
+@media all and (max-width:1050px){
+    .floatl{
+        float: none;
+        width: 450px;
+        margin: 25px auto;
+
+    }
+    .floatr{
+        float: none;
+        width: 450px;
+        margin: 25px auto;
+    }
+    .headmain{
+        width: 500px;
+    }
+    .menumain{
+        width: 500px;
+        float: none;
+
+    }
+    .baner{
+        width: 500px;
+        float: none;
+    }
+    .banermain{
+        width: 500px;
+        float: none;
+    }
+    .footer{
+        width: 500px;
+    }
+}
