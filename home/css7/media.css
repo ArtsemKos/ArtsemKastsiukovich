@@ -1,0 +1,37 @@
+@media all and (max-width: 1365px){
+    .container{
+        width: 100%;
+    }
+}
+@media all and (max-width: 940px){
+   .container{
+    background-image: none;
+    background-image: url(img/Новый\ проект.png);
+    background-repeat: repeat-y;
+    background-position: left top;
+   }
+    
+}
+@media all and (max-width:750px){
+    img{
+        float: none;
+        
+    }
+    .content-main{
+        text-align: center;
+    }
+}
+@media all and (max-width:542px){
+ 
+    .content-menu{
+    float: none;
+    width: 100%;
+ }
+ .container{
+    background-image: none;
+}
+.content-main{
+    margin: 0;
+}
+
+}
