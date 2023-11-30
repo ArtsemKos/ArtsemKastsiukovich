@@ -1,3 +1,13 @@
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
 h3{
     text-align: center;
     color: red;
@@ -14,4 +24,22 @@ h2{
 }
 .other a{
    padding-left: 20px;
+}
+.container2{
+    width: 1360px;
+    margin: 0 auto;
+}
+.menul{
+    float: left;
+    width: 33%;
+    padding: 0px 40px 0px 20px;
+    box-sizing: border-box;
+}
+.menuc{
+    float: left;
+    width: 34%;
+}
+.menur{
+    float: left;
+    width: 33%;
 }
