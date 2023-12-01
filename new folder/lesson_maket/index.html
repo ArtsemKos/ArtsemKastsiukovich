@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="header__menu">
-                <div class="header__menu_1"><img src="img/airplane (1).png" alt="airplane"><span>Find Flight</span></div>
+                <div class="header__menu_1"><img src="img/airplane (1).png" alt="airplane"><span>Find Flight</span>
+                </div>
                 <div class="header__menu_2"><img src="img/ion_bed.png" alt="bed"><span>Find Stays</span></div>
                 <div class="header__menu_3"><span>Sign up</span></div>
                 <div class="header__menu_4"><span>Login</span></div>
@@ -30,18 +33,42 @@
                     <div class="poisk__top_2"><img src="img/ion_bedblack.png" alt=""><span>Stays</span></div>
                     <div class="poisk__top_rasporka"></div>
                 </div>
-                <div class="poisk__midle">
-                    <div class="poisk__midle_1"><span>Lahore - Karachi</span><img src="img/ion_swap-horizontal.svg" alt="icon"></div>
-                    <div class="poisk__midle_2"><span>Return</span><img src="img/chevron_down.svg" alt="icon"></div>
-                    <div class="poisk__midle_3"><p>07 Nov 22 - 13 Nov 22</p></div>
-                    <div class="poisk__midle_4"><p>1 Passenger, Economy</p></div>
-                    <div class="poisk__midle_rasporka"></div>
-                </div>
-                <div class="poisk__bottom">
-                    <div class="poisk__bottom_2"><img src="img/Vector (2).png" alt=""><span>Show Filghts</span></div>
-                    <div class="poisk__bottom_1"><img src="img/Vector (1).png" alt=""><span>Add Promo Code</span></div>
-                    <div class="poisk__bottom_rasporka"></div>
-                </div>
+                <form action="https://fe.it-academy.by/TestForm.php" method="get">
+                    <div class="poisk__midle">
+                        <div class="poisk__midle_1">
+                            <span>From-To</span>
+                            <input type="text" name="From-To">
+                            <img src="img/ion_swap-horizontal.svg" alt="icon">
+                        </div>
+                        <div class="poisk__midle_2">
+                            <span>Trip</span>
+                            <input type="text" name="trip">
+                            <img src="img/chevron_down.svg" alt="icon">
+                        </div>
+                        <div class="poisk__midle_3">
+                            <span>Depart- Return</span>
+                            <input type="text" name="Depart- Return">
+                        </div>
+                        <div class="poisk__midle_4">
+                            <span>Passenger - Class</span>
+                            <input type="text" name="Passenger - Class">
+                        </div>
+                        <div class="poisk__midle_rasporka"></div>
+                    </div>
+                    <div class="poisk__buttom">
+                        <button class="button_poisk" type="submit">
+                            <img src="img/Vector (2).png" alt="vector">
+                            <span>Show Filghts</span>
+                        
+                        </button>
+                            
+                        <!-- <div class="poisk__bottom_2"><img src="img/Vector (2).png" alt=""><span>Show Filghts</span>
+                        </div> -->
+                        <div class="poisk__bottom_1"><img src="img/Vector (1).png" alt=""><span>Add Promo Code</span>
+                        </div>
+                        <div class="poisk__bottom_rasporka"></div>
+                    </div>
+                </form>
             </div>
             <div class="plan">
                 <div class="plan__name">
@@ -51,21 +78,48 @@
                     <div class="plan__name_rasporka"></div>
                 </div>
                 <div class="plan__1line">
-                    <div class="plan__1line_1"><img src="img/Rectangle 3Istanbul.png" alt="Istanbul"><p>Istanbul, Turkey</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
-                    <div class="plan__1line_2"><img src="img/Rectangle 3sydney.png" alt="sydney"><p>Sydney, Australia</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
-                    <div class="plan__1line_3"><img src="img/Rectangle 4baku.png" alt="baku"><p>Baku, Azerbaijan</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
+                    <div class="plan__1line_1"><img src="img/Rectangle 3Istanbul.png" alt="Istanbul">
+                        <p>Istanbul, Turkey</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
+                    <div class="plan__1line_2"><img src="img/Rectangle 3sydney.png" alt="sydney">
+                        <p>Sydney, Australia</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
+                    <div class="plan__1line_3"><img src="img/Rectangle 4baku.png" alt="baku">
+                        <p>Baku, Azerbaijan</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
                     <div class="plan__1line_rasporka"></div>
                 </div>
                 <div class="plan__2line">
-                    <div class="plan__2line_1"><img src="img/Rectangle 4male.png" alt="male"><p>Malé, Maldives</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
-                    <div class="plan__2line_2"><img src="img/Rectangle 3paris.png" alt="paris"><p>Paris, France</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
-                    <div class="plan__2line_3"><img src="img/Rectangle 4NewYork.png" alt="NewYork"><p>New York, US</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
+                    <div class="plan__2line_1"><img src="img/Rectangle 4male.png" alt="male">
+                        <p>Malé, Maldives</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
+                    <div class="plan__2line_2"><img src="img/Rectangle 3paris.png" alt="paris">
+                        <p>Paris, France</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
+                    <div class="plan__2line_3"><img src="img/Rectangle 4NewYork.png" alt="NewYork">
+                        <p>New York, US</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
                     <div class="plan__2line_rasporka"></div>
                 </div>
                 <div class="plan__3line">
-                    <div class="plan__3line_1"><img src="img/Rectangle 3london.png" alt="London"><p>London, UK</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
-                    <div class="plan__3line_2"><img src="img/Rectangle 3tokyo.png" alt="tokyo"><p>Tokyo, Japan</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
-                    <div class="plan__3line_3"><img src="img/Rectangle 4dubai.png" alt="dubai"><p>Dubai, UAE</p><span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span></div>
+                    <div class="plan__3line_1"><img src="img/Rectangle 3london.png" alt="London">
+                        <p>London, UK</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
+                    <div class="plan__3line_2"><img src="img/Rectangle 3tokyo.png" alt="tokyo">
+                        <p>Tokyo, Japan</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
+                    <div class="plan__3line_3"><img src="img/Rectangle 4dubai.png" alt="dubai">
+                        <p>Dubai, UAE</p>
+                        <span>Flights</span><span>&middot;</span><span>Hotels</span><span>&middot;</span><span>Resorts</span>
+                    </div>
                     <div class="plan__3line_rasporka"></div>
                 </div>
             </div>
@@ -73,12 +127,14 @@
                 <div class="choice__flights">
                     <h3>Flights</h3>
                     <h4>Search Flights & Places Hire to our most popular<br> destinations</h4>
-                    <div class="choice__flights_button"><img src="img/Vector (2).png" alt="tgicon"><span>Show Filghts</span> </div>
+                    <div class="choice__flights_button"><img src="img/Vector (2).png" alt="tgicon"><span>Show
+                            Filghts</span> </div>
                 </div>
-                 <div class="choice__hotels">
+                <div class="choice__hotels">
                     <h3>Hotels</h3>
                     <h4>Search hotels & Places Hire to our most popular<br> destinations</h4>
-                    <div class="choice__flights_button"><img src="img/Vector (2).png" alt="tgicon"><span>Show Hotels</span> </div>
+                    <div class="choice__flights_button"><img src="img/Vector (2).png" alt="tgicon"><span>Show
+                            Hotels</span> </div>
                 </div>
                 <div class="choice__rasporka"></div>
             </div>
@@ -91,70 +147,73 @@
                 </div>
                 <div class="scroll__bottom">
                     <div class="scroll__bottom_1">
-                        <div class="bg__1"></div> 
+                        <div class="bg__1"></div>
                         <div class="scroll__bottom_1_a">
-                         <h3>“A real sense of community,<br> nurtured”</h3>
-                         <h4>Really appreciate the help and support from the staff<br> during these tough times. Shoutout to Katie for...</h4>
-                         <p>View more</p>
-                         <div class="scroll__bottom_1_a_stars">
-                          <img src="img/ion_star.svg" alt="icon_star">
-                          <img src="img/ion_star.svg" alt="icon_star">
-                          <img src="img/ion_star.svg" alt="icon_star">
-                          <img src="img/ion_star.svg" alt="icon_star">
-                          <img src="img/ion_star.svg" alt="icon_star">
-                         </div>
-                         <h5>Olga</h5>
-                         <h6>Weave Studios – Kai Tak</h6>
-                         <div class="scroll__bottom_1_a_google">
-                          <img src="img/flat-color-icons_google.svg" alt="icon_google">
-                          <span>Google</span>
-                         </div>
-                         <img src="img/scroll_1.png" alt="gori">
-                        </div> 
+                            <h3>“A real sense of community,<br> nurtured”</h3>
+                            <h4>Really appreciate the help and support from the staff<br> during these tough times.
+                                Shoutout to Katie for...</h4>
+                            <p>View more</p>
+                            <div class="scroll__bottom_1_a_stars">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                            </div>
+                            <h5>Olga</h5>
+                            <h6>Weave Studios – Kai Tak</h6>
+                            <div class="scroll__bottom_1_a_google">
+                                <img src="img/flat-color-icons_google.svg" alt="icon_google">
+                                <span>Google</span>
+                            </div>
+                            <img src="img/scroll_1.png" alt="gori">
+                        </div>
                     </div>
                     <div class="scroll__bottom_2">
-                        <div class="bg__2"></div> 
+                        <div class="bg__2"></div>
                         <div class="scroll__bottom_2_b">
                             <h3>“The facilities are superb.<br> Clean, slick, bright.”</h3>
-                            <h4>“A real sense of community, nurtured”Really<br> appreciate the help and support from the staff... </h4>
+                            <h4>“A real sense of community, nurtured”Really<br> appreciate the help and support from the
+                                staff... </h4>
                             <p>View more</p>
-                          <div class="scroll__bottom_2_b_stars">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                          </div>
+                            <div class="scroll__bottom_2_b_stars">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                            </div>
                             <h5>Thomas</h5>
                             <h6>Weave Studios – Olympic</h6>
-                          <div class="scroll__bottom_2_b_google">
-                            <img src="img/flat-color-icons_google.svg" alt="icon_google">
-                            <span>Google</span>
-                          </div>
-                          <img src="img/scroll_2.png" alt="gori">
-                        </div> 
+                            <div class="scroll__bottom_2_b_google">
+                                <img src="img/flat-color-icons_google.svg" alt="icon_google">
+                                <span>Google</span>
+                            </div>
+                            <img src="img/scroll_2.png" alt="gori">
+                        </div>
                     </div>
                     <div class="scroll__bottom_3">
-                        <div class="bg__3"></div> 
+                        <div class="bg__3"></div>
                         <div class="scroll__bottom_3_c">
                             <h3>“A real sense of community,<br> nurtured”</h3>
-                            <h4>“Really appreciate the help and support from the staff<br> during these tough times. Shoutout to Katie for... </h4>
+                            <h4>“Really appreciate the help and support from the staff<br> during these tough times.
+                                Shoutout to Katie for... </h4>
                             <p>View more</p>
-                          <div class="scroll__bottom_3_c_stars">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                            <img src="img/ion_star.svg" alt="icon_star">
-                          </div>
+                            <div class="scroll__bottom_3_c_stars">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                                <img src="img/ion_star.svg" alt="icon_star">
+                            </div>
                             <h5>Eliot</h5>
                             <h6>Weave Studios – Kai Tak</h6>
-                          <div class="scroll__bottom_3_c_google">
-                            <img src="img/flat-color-icons_google.svg" alt="icon_google">
-                            <span>Google</span>
-                          </div>
-                          <img src="img/scroll_3.png" alt="gori">
-                        </div> 
+                            <div class="scroll__bottom_3_c_google">
+                                <img src="img/flat-color-icons_google.svg" alt="icon_google">
+                                <span>Google</span>
+                            </div>
+                            <img src="img/scroll_3.png" alt="gori">
+                        </div>
                     </div>
                     <div class="scroll__bottom_rasporka"></div>
                 </div>
@@ -165,8 +224,12 @@
                 <h4>The Travel</h4>
                 <h5>Get inspired! Receive travel discounts, tips and behind the scenes stories.</h5>
                 <div class="subscribe__mail">
-                    <div class="subscribe__mail_1"><p>Your email address</p></div>
-                    <div class="subscribe__mail_2"><h6>Subscribe</h6></div>
+                    <div class="subscribe__mail_1">
+                        <p>Your email address</p>
+                    </div>
+                    <div class="subscribe__mail_2">
+                        <h6>Subscribe</h6>
+                    </div>
                     <div class="subscribe__mail_rasporks"></div>
                 </div>
             </div>
@@ -222,8 +285,9 @@
                     </ul>
                 </div>
             </div>
-           
+
         </div>
     </div>
 </body>
+
 </html>
