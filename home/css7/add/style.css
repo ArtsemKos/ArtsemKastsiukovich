@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p:first-child{
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+p:nth-child(2){
+    color: green;
+    padding-bottom: 20px;
+}
+p:nth-child(3){
+    color: red;
+    padding-bottom: 20px;
+}
+[href^="https://"]::before {
+    content: url(img/extref.png);
+    
+}
+a + p{
+    color: blue;
+    font-style: italic;
+    padding: 20px 0px;
+}
+@media print{
+    [href^="https://"]::before{
+        content: '(Ссылка ';
+    }
+    [href^="https://"]::after{
+     content: ' на https://chesspro.ru/statistic/kasparov.shtml)';
+    }
+    a{
+        text-decoration: none;
+    }
+    [href="#nachalo"]{
+        display: none;
+    }
+
+}

@@ -1,0 +1,109 @@
+@media all and (max-width: 1485px){
+    h3{
+        font-size: 25px;
+    }
+    span{
+        font-size: 25px;
+    }
+    .item-1 input{
+        font-size: 25px;
+    }
+    .item-2 select{
+        font-size: 25px;
+      }
+}
+@media all and (max-width: 1365px){
+    h3{
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .item-1 input{
+        font-size: 20px;
+    }
+    .item-2 select{
+        font-size: 20px;
+    }
+    .item-3-radio input{
+        width: 15px;
+        height: 15px;
+        vertical-align: text-bottom;
+    }
+    .item-4-checkbox input{
+        width: 15px;
+        height: 15px;
+        margin-top: 8px;
+      }
+}
+@media all and (max-width: 1365px){
+    form{
+        width: 60%;
+    }
+    h3{
+        font-size: 30px;
+    }
+    span{
+        font-size: 30px;
+    }
+    .item-1{
+        margin-bottom: 20px;
+    }
+    .item-1 input{
+        font-size: 30px;
+    }
+    .item-2{
+        margin-bottom: 20px;
+    }
+    .item-2 select{
+        font-size: 30px;
+    }
+    .item-3{
+        margin-bottom: 20px;
+    }
+    .item-3-radio input{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 12px;
+        margin-right: 12px;
+    }
+    .item-4-checkbox input{
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+    }
+    .item-1 span{
+        float: none;
+    }
+    .item-1-input{
+        margin-left: 0px;
+    }
+    .item-2 span{
+        float: none;
+    }
+      .item-2-option{
+        margin-left: 0px;
+    }
+    .item-3 span{
+        float: none;
+    }
+    .item-3-radio{
+        margin-left: 0px;
+       
+    }
+    .item-4-checkbox{
+        margin-left: 352px;
+    }
+    .item-4{
+        margin-bottom: 20px;
+    }
+    span.span-radio{
+        display: block;
+    }
+    .item-5{
+        margin-bottom: 20px;
+    }
+   
+
+}
