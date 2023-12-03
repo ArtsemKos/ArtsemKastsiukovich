@@ -50,6 +50,22 @@ table
     display: block;
     clear: both;
 }
+body{
+    height: 100000px;
+}
+.invit{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(40, 204, 73);
+    position: fixed;
+    right: 415px;
+    top: 60px;
+    text-align: center;
+    border: solid green 1px;
+}
+.invit a{
+   vertical-align: sub;
+}
 .container{
     width: 1360px;
     margin: 0 auto;
