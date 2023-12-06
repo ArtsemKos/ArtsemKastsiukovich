@@ -1,0 +1,29 @@
+@media all and (max-width: 1365px){
+    .container{
+        width: 100%;
+    }
+}
+@media all and (max-width: 620px){
+    .container{
+        background-image: none;
+    }
+    .center{
+        flex-direction:column-reverse;
+    }
+    .content{
+        text-align: center;
+    }
+    .content p{
+        text-align: left;
+    }
+    .menu{
+        width: 100%;
+        background-color: white;
+    }
+    li{
+        display: inline;
+    }
+    img{
+        float: none;
+    }
+}
