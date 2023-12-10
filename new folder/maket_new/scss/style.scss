@@ -1,6 +1,7 @@
 @import 'rest.scss';
 @import 'variable.scss';
 
+
 .wrap-head{
  background: url(../img/Header_bg_img.png) no-repeat right top,
   linear-gradient(180deg, #F1F1F1 0%, #F0F2F1 16.25%, #EBEDEC 43.26%, #E6E8E7 72.5%, #DEE2E1 100%);
@@ -384,6 +385,133 @@
     }
   }
 }
+// ----------------------------------------------------------------------------------------------------
+.complex-wrap{
+  position: relative;
+  .bg1{
+    position: absolute;
+    left: 0px;
+    top: 70px;
+  }
+  .bg2{
+    position: absolute;
+    left: 330px;
+    top: 127px;
+  }
+  .bg3{
+    position: absolute;
+    left: 457px;
+    top: 333px;
+  }
+  .bg4{
+    position: absolute;
+    left: 1500px;
+    top: 169px;
+  }
+  .bg5{
+    position: absolute;
+    left: 355px;
+    top: 450px;
+  }
+}
+.complex{
+  margin-top: 100px;
+  .complex-text{
+    margin-bottom: 85px;
+    width: 860px;
+    .complex-text-in{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .complex-text-in-line{
+        width: 236px;
+        height: 3px;
+        flex-shrink: 0;
+        border-radius: 1.5px;
+        background: var(--unnamed, #78C081);
+      }
+    }
+    h3{
+      color: #495E4C;
+      font-family: $roboto;
+      font-size: 51px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 60px; /* 133.333% */
+      text-transform: capitalize;
+
+    }
+  }
+  .complex-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 305px;
+    .bag{
+      img{
+        width: 257px;
+        height: 86px;
+      }
+      
+    }
+    .complex-item{
+      position: relative;
+      .complex-item-price{
+        position: absolute;
+        left: 0;
+        top: 14px;
+        width: 119px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 0px 10px 10px 0px;
+        background: #D9FADD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        span{
+          color: #495D4C;
+          font-family: $roboto;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+
+        }
+
+      }
+      .complex-item-text{
+        width: 257px;
+        height: 43px;
+        flex-shrink: 0;
+        background: #FFF;
+        border-radius: 0px 0px 25px 25px;
+        backdrop-filter: blur(1px);
+        display: flex;
+        align-items: center;
+        margin-top: -9px;
+        span{
+          color: #78C081;
+          font-family: $roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+          margin-left: 15px;
+
+        }
+        
+        
+
+      }
+
+    }
+
+  }
+
+}
+
 
 
 
