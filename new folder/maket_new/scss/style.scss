@@ -405,7 +405,7 @@
   }
   .bg4{
     position: absolute;
-    left: 1500px;
+    left: 1399px;
     top: 169px;
   }
   .bg5{
@@ -416,6 +416,7 @@
 }
 .complex{
   margin-top: 100px;
+  margin-bottom: 100px;
   .complex-text{
     margin-bottom: 85px;
     width: 860px;
@@ -501,16 +502,98 @@
           margin-left: 15px;
 
         }
-        
-        
-
       }
+    }
+  }
+}
+// -----------------------------------------------------------------------------------------------------------------
+.steps-t{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  .steps-l-text{
+    h3{
+      color: #495E4C;
+      font-family: $roboto;
+      font-size: 51px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 60px; /* 133.333% */
+      text-transform: capitalize;
+    }
+    .steps-l-text-t{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .steps-l-text-t-line{
+        width: 100px;
+        height: 2px;
+        flex-shrink: 0;
+        border-radius: 1.5px;
+        background: var(--unnamed, #78C081);
+      }
+    }
+  }
+  .steps-r-text{
+    h3{
+      color: var(--unnamed, #78C081);
+      font-family:$roboto;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-bottom: 16px;
 
     }
+    .steps-r-text-item{
+      margin-top: 10px;
+      display: flex;
+      align-items: flex-start;
+      span{
+        color: #7CA381;
+        font-family: Proxima Nova;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 10px;
 
+      }
+    }
   }
 
 }
+.steps-b{
+  display: flex;
+  justify-content: space-around;
+  .steps-b-item{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    span{
+      color: #495E4C;
+      font-family: $roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+
+    }
+    .steps-b-items-wrap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      flex-shrink: 0;
+      background-image: url(../img/bg-steps-bot.png);
+    }
+  }
+}
+
 
 
 
