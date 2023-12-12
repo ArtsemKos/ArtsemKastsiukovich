@@ -689,3 +689,54 @@ table {
       -ms-flex-negative: 0;
           flex-shrink: 0;
       background-image: url(../img/bg-steps-bot.png); }
+
+.form-1-wrap {
+  background-image: url(../img/bg-form.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 248px;
+  margin-top: 105px; }
+
+.form-1 {
+  margin-top: -248px; }
+  .form-1 h3 {
+    color: #495E4C;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 128.571% */
+    margin-top: 55px;
+    margin-bottom: 33px; }
+  .form-1 .form-1-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .form-1 .form-1-items .form-1-item-1 input {
+      margin-right: 30px;
+      width: 290px;
+      height: 57px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      border-radius: 15px;
+      background: #FFF; }
+    .form-1 .form-1-items .form-1-item-2 input {
+      margin-right: 60px;
+      width: 290px;
+      height: 57px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      border-radius: 15px;
+      background: #FFF;
+      -webkit-box-shadow: 0px 0px 12px 0px rgba(73, 93, 76, 0.15);
+              box-shadow: 0px 0px 12px 0px rgba(73, 93, 76, 0.15); }
+    .form-1 .form-1-items .form-1-item-3 input {
+      width: 229px;
+      height: 57px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      border-radius: 17px;
+      background: #9CD3A3;
+      -webkit-box-shadow: 2px -2px 12px 0px rgba(34, 111, 33, 0.36) inset;
+              box-shadow: 2px -2px 12px 0px rgba(34, 111, 33, 0.36) inset; }
