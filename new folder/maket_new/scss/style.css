@@ -796,3 +796,26 @@ table {
         letter-spacing: 0.6px;
         text-transform: uppercase;
         border-width: 0px; }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .about .about-l {
+    width: 531px;
+    height: 580px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.1);
+            box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.1); }
+    .about .about-l .about-l-text {
+      color: #495E4C;
+      font-family: "Roboto", sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 60px;
+      /* 133.333% */
+      text-transform: capitalize; }
