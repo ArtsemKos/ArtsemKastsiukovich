@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0px auto;
+}
+.wrap{
+  text-align: center;
+  margin-top: 100px;
+}
+input{
+    display: none;
+}
+label{
+    position: relative;
+    width: 300px;
+    height: 75px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.5s;
+
+}
+label::before{
+    content: '';
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: gold;
+    position: absolute;
+    left: 5px;
+    top: 3px; 
+    transition: 0.5s;
+}
+input:checked + label{
+    background-color: green;
+}
+input:checked + label::before{
+    content: '';
+    position: absolute;
+    left: 226px;
+    top: 3px;
+
+}
