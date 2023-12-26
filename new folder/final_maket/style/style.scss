@@ -12,7 +12,7 @@
    }
     
 }
-.container{
+.containerr{
     width: 1420px;
     margin: 0 auto;
     @media all and (max-width: 1480px){
@@ -25,32 +25,67 @@
     }
 
 }
+
+
 header{
    display: flex;
   padding-top: 30px;
+  
 
-   menu{
-    display: flex;
-    width: 664px;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 91px;
-
-    a{
-        color: var(--black, #1D1D1B);
-        font-family: Rubik;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-decoration: none;
+  .navbar-light .navbar-nav .nav-link.active{
+    color: var(--black, #1D1D1B);
+    @media all and (max-width:1170px){
+        margin-right: 20px;
     }
-   }
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--black, #1D1D1B);
+    @media all and (max-width:1170px){
+        margin-right: 20px;
+    }
 }
+ nav.bg-light{
+    background-color: transparent!important;
+ }
+ .navbar-light .navbar-nav .nav-link.disabled{
+    color: var(--black, #1D1D1B);
+    @media all and (max-width:1170px){
+        margin-right: 20px;
+    }
+ }
+ .navbar-nav{
+    margin-left: 91px;
+    @media all and (max-width:1170px){
+       margin-left: 40px;
+    }
+    .nav-item{
+        a{
+            margin-right: 48px;
+            color: var(--black, #1D1D1B);
+            font-family: Rubik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+    
+        }
+
+    }
+   
+ }
+ 
+
+
+}
+
 hgroup{
     width: 775px;
     height: 256px;
     margin-top: 320px;
+    @media all and(max-width:890px){
+        width: auto;
+        height: auto;
+    }
 
     h1{
         color: #FFF;
@@ -122,15 +157,29 @@ hgroup{
             @media all and (max-width:1505px){
                 margin-bottom: 14px;
             }
+            @media all and(max-width:860px){
+                flex-direction: column;
+                margin-bottom: 0px;
+
+            }
         }
         .why-items-1 :first-child{
             margin-right: 14px;
+            @media all and(max-width:860px){
+                margin-right: 0px;
+            }
         }
         .why-items-1 :nth-child(2){
             margin-right: 14px;
+            @media all and(max-width:860px){
+                margin-right: 0px;
+            }
         }
         .why-items-2{
             display: flex;
+            @media all and(max-width:860px){
+                flex-direction: column;
+            }
         }
         .why-items-2 :first-child{
             margin-right: 14px;
@@ -145,6 +194,10 @@ hgroup{
             border-radius: 8px;
             border: 1px solid #A8A8A8;
             background: #FFF;
+            @media all and(max-width:860px){
+                margin-bottom: 10px;
+            }
+
             img{
                 margin-right: 20px;
             }
@@ -190,6 +243,10 @@ hgroup{
             @media all and (max-width:1505px){
                 margin-bottom: 40px;
             }
+            @media all and (max-width:890px){
+                flex-direction: column;
+                margin-bottom: 0px;
+            }
            
         }
         .materials-items-1 :first-child{
@@ -197,14 +254,23 @@ hgroup{
             @media all and (max-width:1505px){
                 margin-right: 40px;
             }
+            @media all and (max-width:890px){
+                margin-right: 0px;
+            }
         }
         .materials-items-2{
             display: flex;
+            @media all and (max-width:890px){
+                flex-direction: column;
+            }
         }
         .materials-items-2 :first-child{
             margin-right: 20px;
             @media all and (max-width:1505px){
                 margin-right: 40px;
+            }
+            @media all and (max-width:890px){
+                margin-right: 0px;
             }
         }
         .materials-item{
@@ -212,6 +278,17 @@ hgroup{
             height: 524px;
             position: relative;
             transition: transform 0.5s;
+            @media all and (max-width:890px){
+                margin-bottom: 20px;
+                height: 226px;
+            }
+            img{
+                @media all and (max-width:890px){
+                    width: 340px;
+                    height: 226px;
+                }
+
+            }
            
             span{
                 color: #FFF;
@@ -223,12 +300,17 @@ hgroup{
                 position: absolute;
                 left: 40px;
                 bottom: 40px;
+                @media all and (max-width:890px){
+                    bottom: 20px;
+                }
             }
         }
         .materials-item:hover{
             transform: scale(1.2);
             z-index: 1;
             cursor: pointer;
+           
+
            }
     }
 }
@@ -366,7 +448,7 @@ hgroup{
      width: 100%;
     }
     @media all and (max-width: 1680px){
-        height: 1090px;
+        height: 1050px;
     }
     
 
