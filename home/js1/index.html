@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    var line1='ваше ФИО: ';
+    var line2='ваш возраст в годах: ';
+    var line3='ваш возраст в днях: ';
+    var line4='через 5 лет вам будет: ';
+    var line5='ваш пол: ';
+    var line6="вы на пенсии: ";
+
+    var name=prompt('Ваше имя?');
+    var surname=prompt('Ваша фамилия?');
+    var patronym=prompt('Ваше отчество?');
+    var agestr=prompt('Ваш возраст в годах?');
+    var age=parseInt(agestr);
+    var age365;
+    var age5;
+    var vopos;
+    var gender;
+    var pens;
+
+    age5=(age+5);
+    age365=(age*365);
+
+    var vopos=confirm('ваш пол - мужской?');
+    if ( vopos )
+        gender=('Мужской')
+    
+    else
+        gender=('Женский')
+
+   
+   if ((gender=='Мужской')&&(age<63))
+     pens=('нет')
+    else
+    if((gender=='Мужской')&&(age>=63))
+    pens=('да')
+     else
+     if((gender=='Женский')&&(age>=58))
+    pens=('да')
+    else
+      pens=('нет')
+   
+   
+
+    alert(line1 + ' ' + surname + ' ' + name + ' ' + patronym + ' \n' +
+    line2 + ' ' +age + '\n' +
+    line3 + age365 + '\n' +
+    line4 + age5 + '\n' +
+    line5 + gender + '\n' +
+    line6 + pens       
+    
+    
+     )
+
+
+</script>
+    
+</body>
+</html>
