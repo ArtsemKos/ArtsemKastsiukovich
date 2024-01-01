@@ -126,6 +126,97 @@ table {
               font-size: 14px;
               display: inline-block; } }
 
+.materrials .materrials-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  @media all and (max-width: 1245px) {
+    .materrials .materrials-items {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 80px; } }
+  .materrials .materrials-items .materrials-items-r {
+    margin-left: 39px; }
+    @media all and (max-width: 1245px) {
+      .materrials .materrials-items .materrials-items-r {
+        width: 580px;
+        margin-left: 0px; } }
+    @media all and (max-width: 890px) {
+      .materrials .materrials-items .materrials-items-r {
+        width: 335px; } }
+    .materrials .materrials-items .materrials-items-r h3 {
+      color: #1D1D1B;
+      font-family: Rubik;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%;
+      /* 41.6px */
+      margin-bottom: 24px; }
+      @media all and (max-width: 890px) {
+        .materrials .materrials-items .materrials-items-r h3 {
+          font-size: 24px;
+          font-weight: 500; } }
+    .materrials .materrials-items .materrials-items-r p {
+      color: #1D1D1B;
+      font-family: Rubik;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      /* 23.4px */ }
+      @media all and (max-width: 890px) {
+        .materrials .materrials-items .materrials-items-r p {
+          display: none; } }
+    .materrials .materrials-items .materrials-items-r .materrials-price {
+      margin-top: 61px; }
+      @media all and (max-width: 890px) {
+        .materrials .materrials-items .materrials-items-r .materrials-price {
+          margin-top: 15px; } }
+      .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item {
+        margin-bottom: 19px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item span {
+          color: #1D1D1B;
+          font-family: Rubik;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 130%;
+          /* 20.8px */ }
+          @media all and (max-width: 890px) {
+            .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item span {
+              font-size: 14px; } }
+        .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item .price-item-line {
+          width: 310px;
+          border-bottom: solid 1px #CCCCCC; }
+          @media all and (max-width: 1370px) {
+            .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item .price-item-line {
+              width: 220px; } }
+          @media all and (max-width: 890px) {
+            .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item .price-item-line {
+              width: 60px; } }
+        .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item p {
+          color: #27AE60;
+          font-family: Rubik;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; }
+          @media all and (max-width: 890px) {
+            .materrials .materrials-items .materrials-items-r .materrials-price .materrials-price-item p {
+              font-size: 14px;
+              display: inline-block; } }
+
 .wrap {
   background: url(../img/bg-header.png) no-repeat;
   margin: 0 auto;
