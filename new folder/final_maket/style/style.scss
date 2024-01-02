@@ -1,6 +1,7 @@
 @import 'rest.scss';
 @import 'styleuslugi.scss';
 @import 'stylematerials.scss';
+@import 'styledelivery.scss';
 @import 'variable.scss';
 
 
@@ -256,6 +257,9 @@ hgroup{
         }
     }
     .materials-items{
+        a{
+            display: block;
+        }
         display: flex;
         justify-content: space-between;
         @media all and (max-width:1505px){

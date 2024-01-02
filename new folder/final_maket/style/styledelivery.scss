@@ -1,0 +1,12 @@
+.map{
+    display: block;
+    margin: 0 auto;
+    @media all and (max-width:1050px){
+        width: 600px;
+        height: 600px;
+    }
+    @media all and (max-width:650px){
+        width: 365px;
+        height: 365px;
+    }
+}

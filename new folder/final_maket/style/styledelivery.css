@@ -1,0 +1,11 @@
+.map {
+  display: block;
+  margin: 0 auto; }
+  @media all and (max-width: 1050px) {
+    .map {
+      width: 600px;
+      height: 600px; } }
+  @media all and (max-width: 650px) {
+    .map {
+      width: 365px;
+      height: 365px; } }

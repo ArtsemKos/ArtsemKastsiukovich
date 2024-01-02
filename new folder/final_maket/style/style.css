@@ -217,6 +217,18 @@ table {
               font-size: 14px;
               display: inline-block; } }
 
+.map {
+  display: block;
+  margin: 0 auto; }
+  @media all and (max-width: 1050px) {
+    .map {
+      width: 600px;
+      height: 600px; } }
+  @media all and (max-width: 650px) {
+    .map {
+      width: 365px;
+      height: 365px; } }
+
 .wrap {
   background: url(../img/bg-header.png) no-repeat;
   margin: 0 auto;
@@ -460,6 +472,8 @@ hgroup {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    .materials .materials-items a {
+      display: block; }
     @media all and (max-width: 1505px) {
       .materials .materials-items {
         -webkit-box-orient: vertical;
