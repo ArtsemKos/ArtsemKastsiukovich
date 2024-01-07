@@ -43,10 +43,10 @@
                                     <a class="nav-link" href="materialspage.html">Материалы</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="deliverypage.html">Доставка и оплата</a>
+                                    <a class="nav-link" href="deliverypage.html">Доставка</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">О компании</a>
+                                    <a class="nav-link" href="aboutpage.html">О компании</a>
                                 </li>
 
                             </ul>
@@ -60,9 +60,12 @@
                     Индивидуальный подход и качественная продукция – ключевые преимущества <br>
                     нашей компании.</h2>
             </hgroup>
-            <div class="button">
-                <span>Заказать звонок</span>
-            </div>
+            <a href="#form">
+                <div class="button">
+                    <span>Заказать звонок</span>
+                </div>
+            </a>
+            
         </div>
     </div>
     <!-- -------------------------------------------------------------------------------------------------------------------- -->
@@ -103,7 +106,7 @@
         <h3>Основные материалы</h3>
         <div class="materials-items">
             <div class="materials-items-1">
-                <a class="materials-item" href="materialspage.html#sand">
+                <a class="materials-item"id=amar1 href="materialspage.html#sand">
                     <picture>
                         <source srcset="img/img-mat-1.png" media="(max-width:890px)">
                         <img src="img/mater-1.png" alt="sand">
@@ -126,7 +129,7 @@
                     </picture>
                     <span>Асфальтная <br>крошка</span>
                 </a>
-                <a class="materials-item" href="pageuslugi.html#technique">
+                <a class="materials-item"id=amar2 href="pageuslugi.html#technique">
                     <picture>
                         <source srcset="img/img-mat-4.png" media="(max-width:890px)">
                         <img src="img/mater-4.png" alt="technique">
@@ -164,17 +167,14 @@
                 <h3>Остались вопросы?</h3>
                 <h4>Закажите обратный звонок и<br> узнайте больше о наших услугах!</h4>
                 <h5>Оставьте заявку и наш менеджер перезвонит<br> вам в течении 10 минут</h5>
-                <div class="button">
-                    <span>Заказать звонок</span>
-                </div>
             </div>
             <div class="form-r">
                 <div class="form-r-bg"></div>
-                <form action="https://fe.it-academy.by/TestForm.php" method="get">
+                <form id="form" action="https://fe.it-academy.by/TestForm.php" method="get">
                     <input type="text" name="name" placeholder="Имя">
                     <input type="tel" name="tel" placeholder="Телефон">
                     <textarea name="comment" id="" cols="30" rows="10" placeholder="Комментарии"></textarea>
-                    <span>Соглашение о персональных данных</span>
+                   <input type="submit" value="отправить">
                 </form>
 
             </div>
@@ -235,8 +235,8 @@
             </div>
             <span>Политика конфиденциальности © спец-транс, 2023</span>
             <div class="footer-links">
-                <a href="">Материалы</a>
-                <a href="">Услуги</a>
+                <a href="materialspage.html">Материалы</a>
+                <a href="pageuslugi.html">Услуги</a>
             </div>
             <div class="footer-items">
                 <img src="img/icon-vk.svg" alt="icon-vk">
