@@ -2,6 +2,7 @@
 @import 'styleuslugi.scss';
 @import 'stylematerials.scss';
 @import 'styledelivery.scss';
+@import 'aboutstyle.scss';
 @import 'variable.scss';
 
 
@@ -542,10 +543,10 @@ hgroup{
      width: 100%;
     }
     @media all and (max-width: 1680px){
-        height: 1050px;
+        height: 930px;
     }
     @media all and (max-width: 750px){
-        height: 830px;
+        height: 730px;
     }
     
 
@@ -750,6 +751,15 @@ hgroup{
                 font-style: normal;
                 border: solid white 2px;
                 border-radius: 5px;
+                @media all and (max-width:750px){
+                    width: 200px;
+                    height: 50px;
+                    left: 84px;
+                    top: 77px;
+                    :hover{
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }

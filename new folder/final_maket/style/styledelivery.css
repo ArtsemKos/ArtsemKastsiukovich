@@ -13,6 +13,176 @@
 .cent {
   text-align: center; }
 
+.button_deliv {
+  width: 254px;
+  height: 66px;
+  border-radius: 8px;
+  background: var(--green, #27AE60);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .button_deliv:hover {
+    width: 274px;
+    height: 74px; }
+  @media all and (max-width: 750px) {
+    .button_deliv {
+      width: 205px;
+      height: 59px; } }
+  .button_deliv span {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; }
+    @media all and (max-width: 750px) {
+      .button_deliv span {
+        font-size: 16px; } }
+
+.form_deliv {
+  position: relative;
+  display: none; }
+  .form_deliv form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    width: 686px;
+    height: 475px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 40px 0px rgba(7, 17, 51, 0.07);
+            box-shadow: 0px 4px 40px 0px rgba(7, 17, 51, 0.07); }
+    @media all and (max-width: 750px) {
+      .form_deliv form {
+        width: 365px;
+        height: 326px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; } }
+    .form_deliv form span {
+      color: var(--black, #181A28);
+      font-family: Rubik;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      /* 15px */
+      margin: 43px 0 0 45px; }
+      @media all and (max-width: 750px) {
+        .form_deliv form span {
+          font-size: 14px; } }
+  .form_deliv form :nth-child(1) {
+    margin: 45px 45px 20px 45px;
+    width: 596px;
+    height: 65px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: var(--black, #181A28);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18px */
+    opacity: 0.5;
+    padding-left: 30px; }
+    @media all and (max-width: 750px) {
+      .form_deliv form :nth-child(1) {
+        width: 335px;
+        height: 48px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        margin: 20px 15px 15px 15px; } }
+  .form_deliv form :nth-child(2) {
+    margin: 0 45px 20px 45px;
+    width: 596px;
+    height: 65px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: var(--black, #181A28);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18px */
+    opacity: 0.5;
+    padding-left: 30px; }
+    @media all and (max-width: 750px) {
+      .form_deliv form :nth-child(2) {
+        width: 335px;
+        height: 48px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        margin: 0px 15px 15px 15px; } }
+  .form_deliv form :nth-child(3) {
+    width: 593px;
+    height: 172px;
+    padding: 23px 30px;
+    margin-left: 45px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: var(--black, #181A28);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18px */
+    opacity: 0.5;
+    padding-left: 30px; }
+    @media all and (max-width: 750px) {
+      .form_deliv form :nth-child(3) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 335px;
+        padding: 15px;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        gap: 10px;
+        margin-left: 15px; } }
+  .form_deliv form :nth-child(4) {
+    width: 150px;
+    height: 35px;
+    position: relative;
+    left: 491px;
+    top: 27px;
+    background-color: #27AE60;
+    color: white;
+    font-family: Rubik;
+    font-style: normal;
+    border: solid white 2px;
+    border-radius: 5px; }
+    @media all and (max-width: 750px) {
+      .form_deliv form :nth-child(4) {
+        width: 200px;
+        height: 50px;
+        left: 84px;
+        top: 77px; }
+        .form_deliv form :nth-child(4) :hover {
+          font-size: 18px; } }
+
 .delivery-l h3 {
   color: #1E1E1C;
   font-family: Rubik;
