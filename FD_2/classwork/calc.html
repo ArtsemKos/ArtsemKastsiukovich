@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        div.button {
+            width: 50px;
+            height: 50px;
+            border: red solid 3px;
+            margin: 5px;
+        }
+
+        div.flex {
+            display: flex;
+        }
+
+        div.wrap {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="flex">
+            <div class="button" onclick=" getNumber(1)">1</div>
+            <div class="button" onclick=" getNumber(2)">2</div>
+            <div class="button" onclick=" getNumber(3)">3</div>
+        </div>
+        <div class="flex">
+            <div class="button" onclick=" getNumber(4)">4</div>
+            <div class="button" onclick=" getNumber(5)">5</div>
+            <div class="button" onclick=" getNumber(6)">6</div>
+        </div>
+        <div class="flex">
+            <div class="button" onclick=" getNumber(7)">7</div>
+            <div class="button" onclick=" getNumber(8)">8</div>
+            <div class="button" onclick=" getNumber(9)">9</div>
+        </div>
+        <div class="flex">
+            <div class="button" onclick="getSign('+')">+</div>
+            <div class="button" onclick=" getNumber(0)">0</div>
+            <div class="button" onclick="getSign('/')">/</div>
+        </div>
+        <div class="flex">
+            <div class="button" onclick="getSign('-')">-</div>
+            <div class="button" onclick="getRezalt()">=</div>
+            <div class="button" onclick="getSign('*')">*</div>
+        </div>
+    </div>
+    <script>
+        let x = null;
+        let y = null;
+        let sign = null;
+        function getNumber(number) {
+            if (x === null)
+                x = number
+            else
+                y = number
+
+        }
+        function getSign(znack) {
+          sign= znack
+
+        }
+        function getRezalt(){
+            switch(sign){
+                case "+": console.log(x + y)
+                break;
+                case "-": console.log(x - y)
+                break;
+                case "*": console.log(x * y)
+                break;
+                case "/": console.log(x / y)
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
