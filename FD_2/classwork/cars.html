@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div id="items"></div>
+
+   
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    const cars = [
+    {
+        brand: 'BMW',
+        img:'img/bmw.jpg',
+        model:'XM',
+        descr:'    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, possimus alias nihil dicta, animi libero voluptate nisi totam accusantium, reiciendis laboriosam blanditiis cupiditate unde numquam molestiae exercitationem accusamus voluptatum doloremque.'
+    },
+    {
+        brand: 'Audi',
+        img:'img/Q8.jpg',
+        model:'Q8',
+        descr:'    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, possimus alias nihil dicta, animi libero voluptate nisi totam accusantium, reiciendis laboriosam blanditiis cupiditate unde numquam molestiae exercitationem accusamus voluptatum doloremque.'
+    }
+]
+    function view(){
+        const el = document.getElementById('items');
+        let html = '';
+        for (let i=0; i<cars.length; i++){
+            html+=`
+            <div class="card" style="width: 18rem;">
+             <img src="${cars[i].img}" class="card-img-top" alt="...">
+             <div class="card-body">
+             <h5 class="card-title">${cars[i].brand} ${cars[i].model}</h5>
+             <p class="card-text">${cars[i].descr}</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+            `
+        }
+        el.innerHTML = html;
+    }
+    view();
+
+
+
+</script>
+</body>
+</html>
