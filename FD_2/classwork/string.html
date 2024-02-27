@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+       function disemvowel(str){
+        const vowels = ['a','e','u','i','o'];
+        let newString = '';
+        for (let i =0; i <str.length; i++){
+        if( !vowels.includes(str[i])){
+            newString+=str[i]
+        }
+    }
+    return newString;
+    }
+   const test = disemvowel('afnadkwnkf wefclaevfejlwfn ;efnwlekfnwl');
+   console.log(test);
+
+
+    </script>
+</body>
+</html>
