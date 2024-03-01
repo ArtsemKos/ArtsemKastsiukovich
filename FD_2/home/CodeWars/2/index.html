@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function accum(str) {
+            let string = '';
+            str = str.toLowerCase();
+            const arr = str.split('');
+            for (let i = 0; i < arr.length; i++) {
+                let newStr = arr[i].repeat((i + 1));
+                let firstChar = newStr.charAt(0);
+                let upperFirstChar = firstChar.toUpperCase();
+                let restOfString = newStr.slice(1);
+                if(i===(arr.length-1)){
+                    string += upperFirstChar + restOfString ;
+                }
+                else{
+                    string+=`${upperFirstChar}${restOfString}-`
+                }
+            }
+            console.log(string);
+        }
+        accum('afefvesv');
+    </script>
+</body>
+
+</html>
