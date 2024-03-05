@@ -12,8 +12,8 @@
 
     <script>
         function isPolindrom(vsd) {
-            str = vsd.toLowerCase().split(' ').join('').replace(/[^\w\s]|ъ|ь|_/g, "").replace(/ё/, 'е');
-            str2 = str.split('').reverse().join('');
+          let str = vsd.toLowerCase().split(' ').join('').replace(/[\s.,,,ъ,ь,!]/g, '');
+           let str2 = str.split('').reverse().join('');
             let result = true;
             if (str !== str2) {
                 result = false
