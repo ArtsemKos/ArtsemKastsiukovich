@@ -6,31 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    
-
     <script>
-      const str =  prompt('Введите строку');
-      function delSpace (str){
-        let firstLetter = 0;
-        let lastLetter = 0;
-        for(i=0;i<str.length;i++){
-            if(str[i] !== ' '){
-                firstLetter = i;
-              break;
+        function delSpace(str) {
+            let firstLetter = 0;
+            let lastLetter = 0;
+            for (i = 0; i < str.length; i++) {
+                if (str[i] !== ' ') {
+                    firstLetter = i;
+                    break;
+                }
             }
+            for (i = str.length - 1; i > 0; i--) {
+                if (str[i] !== ' ') {
+                    lastLetter = i + 1;
+                    break;
+                }
+            }
+            const result = str.slice(firstLetter, lastLetter);
+            return `*${result}*`
         }
-
-        for(i=str.length-1;i>0;i--){
-            if(str[i] !== ' '){
-                lastLetter = i+1;
-                break;
-            }
-        }    
-       
-        const result = str.slice(firstLetter,lastLetter)
-        console.log(`*${result}*`)
-      }
-      delSpace(str);
+        console.log(delSpace(prompt('Введите строку')))
 
     </script>
 </body>
