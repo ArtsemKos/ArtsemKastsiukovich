@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function basicOp(operation, value1, value2) {
+            //Code
+            let result = 0;
+            switch (operation) {
+                case '+':
+                    result = value1 + value2
+                    break;
+                case '-':
+                    result = value1 - value2
+                    break;
+                case '*':
+                    result = value1 * value2
+                    break;
+                case '/':
+                    result = value1 / value2
+                    break;
+            }
+            return result;
+        }
+        console.log(basicOp('+', 4, 7))
+    </script>
+
+</body>
+
+</html>
