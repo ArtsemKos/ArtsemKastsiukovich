@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .area{
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+            position: relative;
+        }
+        .square{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="area"> <div class="square"></div></div>
+   
+    <script>
+        const area = document.querySelector('.area');
+        const square = document.querySelector('.square');
+        let x = 0;
+        let y =0;
+        let timer = 0;
+       
+        window.addEventListener('keydown',(e)=>{
+            switch(e.keyCode) {
+                case 68:{
+                    if(timer){
+                        clearInterval(timer);
+                        timer = 0;
+                    }
+                    timer = setInterval(()=>{
+                        x+=1;
+                    square.style.left = `${x}px`;
+
+                    }, 16)
+                   
+                    break;
+                }
+                case 87:{
+                    if(timer){
+                        clearInterval(timer);
+                        timer = 0;
+                    }
+                    timer = setInterval(()=>{
+                        y-=1;
+                    square.style.top = `${y}px`;
+
+                    }, 16)
+                    
+                    break;
+                    
+                }
+                case 65:{
+                    if(timer){
+                        clearInterval(timer);
+                        timer = 0;
+                    }
+                    timer = setInterval(()=>{
+                        x-=1;
+                    square.style.left = `${x}px`;
+
+                    }, 16)
+                   
+                    break;
+                }
+                case 83:{
+                    if(timer){
+                        clearInterval(timer);
+                        timer = 0;
+                    }
+                    timer = setInterval(()=>{
+                        y+=1;
+                    square.style.top = `${y}px`;
+
+                    }, 16)
+                   
+                    break;
+                }
+            }
+        })
+
+    </script>
+</body>
+</html>
