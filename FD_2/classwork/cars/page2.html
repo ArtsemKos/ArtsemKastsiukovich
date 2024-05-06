@@ -55,6 +55,7 @@
                 'descr': descr.value,
             }
             cars.push(item);
+            localStorage.setItem('item',JSON.stringify(cars));
             view();
         }
 

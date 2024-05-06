@@ -7,7 +7,25 @@
 </head>
 <body>
     
+    <script>
 
-    <Div>Hello world</Div>
+        class Clock {
+    
+            constructor() {
+    
+                this.timeName="Минское время";
+    
+                setInterval( () => {
+                    const currTime=new Date();
+                    console.log(this.timeName+" "+currTime);
+                } ,1000);
+                
+            }
+    
+        }
+    
+        const clock=new Clock;
+    
+    </script>
 </body>
 </html>
