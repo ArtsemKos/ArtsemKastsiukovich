@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
+    <div id="aaa"></div>
+    <button onclick="move()">click</button>
     
     <script>
+        function asd(){
+            const wwww = document.getElementById('aaa');
+            wwww.style.transform='translate(100px, 100px)';
+            wwww.style.transition = '5s';
 
-        class Clock {
-    
-            constructor() {
-    
-                this.timeName="Минское время";
-    
-                setInterval( () => {
-                    const currTime=new Date();
-                    console.log(this.timeName+" "+currTime);
-                } ,1000);
-                
-            }
-    
         }
-    
-        const clock=new Clock;
-    
+        function move(){
+            requestAnimationFrame(asd);
+        }
+        
+
+
+
     </script>
 </body>
 </html>
