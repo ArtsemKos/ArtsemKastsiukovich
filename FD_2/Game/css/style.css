@@ -1,4 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 canvas {
     display: block;
     margin: 0 auto;
+}
+
+/* main=============================================== */
+.nameGame {
+    text-transform: uppercase;
+    font-family: "Ravi Prakash", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+    color: aquamarine;
+
+}
+
+.container {
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background: -webkit-linear-gradient(149deg, #1c97d4, #c15353, #92d399);
+    background: linear-gradient(149deg, #1c97d4, #c15353, #92d399);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.menu{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+    opacity: 0.5;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+}
+.menu_item{
+    color: aquamarine;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+    
+    
+}
+#userName{
+    width: 12vw;
+    height: 6vh;
+    border: solid 2px aquamarine;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.button{
+    border: solid 2px aquamarine;
+    border-radius: 10px;
+    padding: 1%;
+}
+.button:hover{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#img1 {
+    position: absolute;
+    width: 8vw;
+    top: 10vh;
+    left: 8vw;
+}
+
+#img2 {
+    position: absolute;
+    width: 8vw;
+    top: 60vh;
+    left: 82vw;
+}
+.imgBack{
+    cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
 }

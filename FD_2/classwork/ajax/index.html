@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Ваше имя:<br />
+<input type=text id='IName'><br />
+Ваша фамилия:<br />
+<input type=text id='ILastName'><br />
+Ваш возраст:<br />
+<input type=text id='IAge'><br />
+Ваша почта:<br />
+<input type="email" id='IEmail'><br />
+<input type=button value='Запомнить меня' onclick='storeInfo()'>
+
+<script src="https://fe.it-academy.by/JQ/jquery.js"></script>
+<script>
+
+const ajaxHandlerScript="https://fe.it-academy.by/AjaxStringStorage2.php";
+let updatePassword;
+const stringName='fafafa';
+
+function storeInfo() {
+    updatePassword=Math.random();
+    $.ajax( {
+            url : ajaxHandlerScript, type : 'POST', cache : false, dataType:'json',
+            data : { f : 'LOCKGET', n : stringName, p : updatePassword },
+            success : lockGetReady, error : errorHandler
+        }
+    );
+}
+
+function lockGetReady(callresult) {
+    if ( callresult.error!=undefined )
+        alert(callresult.error);
+    else {
+        // нам всё равно, что было прочитано -
+        // всё равно перезаписываем
+        const info={
+            name : document.getElementById('IName').value,
+            lastName : document.getElementById('ILastName').value,
+            age : document.getElementById('IAge').value,
+            email : document.getElementById('IEmail').value
+
+        };
+        $.ajax( {
+                url : ajaxHandlerScript, type : 'POST', cache : false, dataType:'json',
+                data : { f : 'UPDATE', n : stringName,
+                    v : JSON.stringify(info), p : updatePassword },
+                success : updateReady, error : errorHandler
+            }
+        );
+    }
+}
+
+function updateReady(callresult) {
+    if ( callresult.error!=undefined )
+        alert(callresult.error);
+}
+
+function restoreInfo() {
+    $.ajax(
+        {
+            url : ajaxHandlerScript, type : 'POST', cache : false, dataType:'json',
+            data : { f : 'READ', n : stringName },
+            success : readReady, error : errorHandler
+        }
+    );
+}
+
+function readReady(callresult) {
+    if ( callresult.error!=undefined )
+        alert(callresult.error);
+    else if ( callresult.result!="" ) {
+        const info=JSON.parse(callresult.result);
+        document.getElementById('IName').value=info.name;
+        document.getElementById('ILastName').value=info.lastName;
+        document.getElementById('IAge').value=info.age;
+        document.getElementById('IEmail').value=info.email;
+    }
+}
+
+function errorHandler(jqXHR,statusStr,errorStr) {
+    alert(statusStr+' '+errorStr);
+}
+
+restoreInfo();
+
+</script>
+    
+</body>
+</html>
