@@ -7,7 +7,7 @@ function switchToStateFromURLHash() {
     const URLHash = window.location.hash;
     const stateStr = URLHash.substr(1);
     if (stateStr != "") {
-        var parts = stateStr.split("_")
+        let parts = stateStr.split("_")
         spaState = { pagename: parts[0] };
     }
     else
@@ -49,19 +49,19 @@ function switchToMainPage() {
 switchToStateFromURLHash();
 
 // --------sound-----------------------------------------------------------
-const sound = document.getElementById('checkSound');
-let checkSound = sound.textContent;
+ 
 
 
 function switchSound() {
-    if(checkSound === 'Выключить звук'){
+    const sound = document.getElementById('checkSound');
+    let checkSound = sound.textContent;
+    if (checkSound === 'Выключить звук') {
         sound.innerHTML = 'Включить звук';
         checkSound = 'Включить звук';
     }
-    else{
-        sound.innerHTML = 'Вылючить звук';
+    else {
+        sound.innerHTML = 'Выключить звук';
         checkSound = 'Выключить звук';
     }
 }
-sound.addEventListener('click', switchSound, false);
 
