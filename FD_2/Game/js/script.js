@@ -55,13 +55,23 @@ switchToStateFromURLHash();
 function switchSound() {
     const sound = document.getElementById('checkSound');
     let checkSound = sound.textContent;
-    if (checkSound === 'Выключить звук') {
-        sound.innerHTML = 'Включить звук';
-        checkSound = 'Включить звук';
+    function soundOn(){
+        document.getElementById('playSound').play()
     }
-    else {
+    function soundOff(){
+        document.getElementById('playSound').pause()
+    }
+   
+    if (checkSound === 'Включить звук') {
         sound.innerHTML = 'Выключить звук';
         checkSound = 'Выключить звук';
+        soundOn()
+       
+    }
+    else {
+        sound.innerHTML = 'Включить звук';
+        checkSound = 'Включить звук';
+        soundOff()
     }
 }
 

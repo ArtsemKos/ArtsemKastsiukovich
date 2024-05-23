@@ -1,5 +1,5 @@
 function renderSettingPage(){
-    return  `<div class="menu_item button" id="checkSound" onclick="switchSound()">Выключить звук</div>
+    return  `<div class="menu_item button" id="checkSound" onclick="switchSound()">Включить звук</div>
     <div class="menu_item" >Сложность:</div>
     <div class="menu_item button" >easy</div>
     <div class="menu_item  cursor">hard</div>
