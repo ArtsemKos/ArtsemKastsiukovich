@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tower Defense</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Ravi+Prakash&display=swap" rel="stylesheet">
@@ -16,19 +16,27 @@
 
 <body>
 
-
-    <div class="container">
-        <h2 class="nameGame">tower defense</h2>
+    <div class="container" id="container">
+        <h2 id="nameGame" class="nameGame">tower defense</h2>
         <img src="img/tower.png" id="img1" alt="tover">
         <img src="img/tower.png" id="img2" alt="tover">
         <div class="menu" id="menu"></div>
+        <div class="gameDiv" id="gameDiv"> 
+            <canvas id="canvas" width="1200" height="800"></canvas>
+        </div>
+       
     </div>
+
+
     <audio id="playSound" loop autoplay>
         <source src="/sound/Moon - Crystals.mp3" />
     </audio>
 
+    <script src="js/game.js"></script>
+    <script src="js/gamePage.js"></script>
     <script src="js/settingPage.js"></script>
     <script src="js/mainPage.js"></script>
+    
     <script src="js/script.js"></script>
 
 

@@ -4,14 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    canvas {
+    display: block;
+    margin: 0 auto;
+}
+  </style>
 </head>
 <body>
   
-  <audio id="aaa">
-    <source src="/sound/Moon - Crystals.mp3"/>
-  </audio>
-  <script>
-   const pls =  document.getElementById('aaa').play();
-  </script>
+  <canvas id="canvas" width="1200" height="800"></canvas>
+  <input type="text"  value="100" readonly>
+
+  <script src="scr.js"></script>
 </body>
 </html>

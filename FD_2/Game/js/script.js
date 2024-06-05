@@ -15,19 +15,23 @@ function switchToStateFromURLHash() {
 
 
 
-
-
     let pageHTML = '';
     switch (spaState.pagename) {
         case 'Settings':
             pageHTML += renderSettingPage();
+            document.getElementById('menu').innerHTML = pageHTML;
             break;
         case 'Main':
             pageHTML += renderMainPage();
+            document.getElementById('menu').innerHTML = pageHTML;
+            break;
+        case 'Game':
+            pageHTML += renderGamePage();
+            document.getElementById('gameDiv').innerHTML = pageHTML;
             break;
 
     }
-    document.getElementById('menu').innerHTML = pageHTML;
+   
 
 
 }
@@ -46,27 +50,31 @@ function switchToSettingsPage() {
 function switchToMainPage() {
     switchToState({ pagename: 'Main' });
 }
+
+function switchToGamePage() {
+    switchToState({ pagename: 'Game' });
+}
 switchToStateFromURLHash();
 
 // --------sound-----------------------------------------------------------
- 
+
 
 
 function switchSound() {
     const sound = document.getElementById('checkSound');
     let checkSound = sound.textContent;
-    function soundOn(){
+    function soundOn() {
         document.getElementById('playSound').play()
     }
-    function soundOff(){
+    function soundOff() {
         document.getElementById('playSound').pause()
     }
-   
+
     if (checkSound === 'Включить звук') {
         sound.innerHTML = 'Выключить звук';
         checkSound = 'Выключить звук';
         soundOn()
-       
+
     }
     else {
         sound.innerHTML = 'Включить звук';

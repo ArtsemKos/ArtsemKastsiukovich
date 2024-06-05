@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 canvas {
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 
 /* main=============================================== */
@@ -35,6 +38,9 @@ canvas {
 
 
 
+}
+.gameDiv{
+  display: none;
 }
 .menu{
     width: 18vw;
@@ -97,4 +103,36 @@ canvas {
 }
 .cursor{
     cursor: pointer;
+}
+#inpScore{
+    color: red;
+    font-size: 5vh;
+    width: 6vw;
+    background-color: aquamarine;
+    text-align: center;
+}
+#divScoreText{
+    color: red;
+    font-size: 5vh;
+    margin-right: 1vw;
+   
+
+}
+#divScore{
+    position: absolute;
+    display: flex;
+    left: 64vw;
+    top: 18vh;
+    background-color: aquamarine;
+    border: solid black 3px;
+}
+#gameOver{
+    position: absolute;
+    left: 30vw;
+    top: 42vh;
+    font-size: 16vh;
+    background-color: aquamarine;
+    color: red;
+    text-transform: uppercase;
+    display: none;
 }
